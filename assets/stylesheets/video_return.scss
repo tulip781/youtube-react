@@ -1,0 +1,17 @@
+.video-return {
+  background-color: beige;
+  height: 150px;
+  display:flex;
+  align-items: center;
+  overflow: hidden;
+  border-top: 2px solid black;
+  cursor: pointer;
+  img {
+    margin: 10px;
+  }
+}
+
+.video-return-title {
+  font-size: 16px;
+  margin: 10px;
+}

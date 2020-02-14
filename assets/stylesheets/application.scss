@@ -1,10 +1,31 @@
+@import './search_bar.scss';
+@import './video_holder.scss';
+@import './video_rec_list.scss';
+@import './video_return.scss';
+@import './video_description.scss';
+@import './video.scss';
+
+
 body {
-  font-family: Helvetica;
+  font-family: 'Lekton', sans-serif;
+  width: 100vw;
+  height: 100vh;
 }
 
 #root {
   height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height:90vh;
+
+  position: relative;
+  top: -25px;
 }
