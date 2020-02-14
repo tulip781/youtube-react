@@ -2,14 +2,16 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 
+
 import SearchBar from './components/SearchBar';
 import VideoHolder from './components/VideoHolder';
 import VideoRecList from './components/VideoRecList';
+import KEY from './api/key';
+
 // import  youtube from './api/youtube_api.jsx';
 
 import '../assets/stylesheets/application.scss';
 
-const KEY = "AIzaSyCqyDrkwkR49lrnKycgYuvOV7iKpFIrQ-A";
 
 class App extends Component {
   state = {
