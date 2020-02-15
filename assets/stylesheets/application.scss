@@ -10,6 +10,7 @@ body {
   font-family: 'Lekton', sans-serif;
   width: 100vw;
   height: 100vh;
+  background-color: #F9F7EA;
 }
 
 #root {
@@ -24,8 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 80vw;
-  height:90vh;
+  height:90%;
 
-  position: relative;
-  top: -25px;
 }
+

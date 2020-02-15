@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 class VideoReturn extends Component {
+
   handleClick = () => {
     this.props.selectVideo(this.props.video);
   }

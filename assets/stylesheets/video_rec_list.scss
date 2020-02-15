@@ -1,14 +1,15 @@
 .video-rec-list {
-  background-color: blue;
-
   min-width: 200px;
   overflow: scroll;
   height: 100%;
   width: 50%;
+  border: 1px solid;
+  margin-left: 10px;
 }
 
 @media only screen and (max-width: 768px) {
  .video-rec-list {
   width: 100%;
+  margin-left: 0px;
  }
 }
