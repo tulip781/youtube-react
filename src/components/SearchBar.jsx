@@ -4,8 +4,6 @@ import React, { Component } from 'react';
 export default class SearchBar extends Component {
   state = { search: 'Adele' }
 
-
-
   handleChange = (e) => {
     this.setState({ search: e.target.value });
   }
